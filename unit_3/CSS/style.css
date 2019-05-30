@@ -1,0 +1,26 @@
+body {
+	background-color: #4d4d4f;
+	font-family: Arial, sans-serif;
+}
+
+h1, p, li {
+	color: #00d3de;
+}
+
+HEADER {
+	background-color: #FFFFFF;
+	padding-bottom: 120px;
+}
+
+header nav {
+	float:right;
+}
+
+.nav li{
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+}
+
+.nav a{
+	text-decoration: none
+}
