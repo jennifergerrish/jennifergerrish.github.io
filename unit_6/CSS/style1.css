@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory&display=swap');
+
+
+h1 {
+	font-family: 'Give You Glory', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+body {
+	background-color: #4d4d4f;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	color: white;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: center;
+	width:30em;
+ 	margin: auto;
+ 	font-weight: 400;
+}
+
+h3 {
+	color: #194567;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 25px;
+	line-height: 1.5em;
+	text-align: left;
+ 	font-weight: 400;
+ 	padding:10px 20px;
+ 	clear:both;
+ }
+
+h4 {
+	color: #22bcb9;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 70px;
+	line-height: 1.5em;
+	text-align: right;
+ 	font-weight: 600;
+ 	margin: 0 20px 0 0;
+}
+
+h5 {
+	color: black;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 9px;
+	line-height: 1.5em;
+ 	font-weight: 400;
+ 	margin: 0 20px;
+ }
+
+p {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 0 20px;
+	Color: #696969;
+}
+
+HEADER {
+	background-color: #FFFFFF;
+	padding: 30px 50px 10px 40px;
+	clear:both;
+}
+
+HEADER nav {
+	float:right;
+}
+
+HEADER nav a {
+	display:inline-block;
+	margin-left:30px;
+}
+
+
+.nav a{
+	text-decoration: none
+	color: black;
+	display: in-line block;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:white;
+}
+
+footer {
+	clear:both;
+	background-color: white;
+	padding: 20px;
+}
+
+footer h5 {
+	float: right;
+}
+
+main {
+	background-color: #eeeeee;
+}
+
+article {
+	float:right;
+	width: 600px
+	background-color:#eeeeee;
+}
+
+section1 {
+	background-color:white;
+	overflow:auto;
+}
+
+
+#percentcomplete {
+	display:block;
+	width: 33%;
+	background:#eeeeee;
+	float:left;
+	margin-right:2%
+	overflow:auto;
+	text-align:right;
+}
+
+#checklist {
+	display:block;
+	width: 59%;
+	background:#eeeeee;
+	float:right;
+	padding:2% 2% 0% 4%;
+
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 20px;
+	line-height:1.5em;
+	font-weight:400;
+	color: #696969;
+	float:left;
+	width:50%;
+	height: 3em;
+	text-align:left;
+	line-height:2em;
+}
+
