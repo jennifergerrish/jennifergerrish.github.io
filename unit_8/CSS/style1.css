@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory&display=swap');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-family: 'Give You Glory', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 400;
+}
+
+body {
+	background-color: #4d4d4f;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	color: white;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 1.35em;
+	line-height: 1.1em;
+	text-align: center;
+	margin: auto;
+ 	font-weight: 400;
+}
+
+h3 {
+	color: #194567;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.1em;
+	text-align: left;
+ 	font-weight: 400;
+ 	padding:0.8em 0.8em;
+ 	clear:both;
+ }
+
+h4 {
+	color: #22bcb9;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 4.5em;
+	line-height: 1.1em;
+	text-align: right;
+ 	font-weight: 600;
+ 	margin: 0 0.35em 0 0;
+}
+
+h5 {
+	color: #696969;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 0.5em;
+	line-height: 1.1em;
+ 	font-weight: 400;
+ 	clear:both;
+ 	padding:0 1em 1em;
+ }
+
+p {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 20px;
+	line-height: 1.1em;
+	margin: 0 1em;
+	color: #696969;
+}
+
+a {
+	color: #696969;
+	text-decoration: none;
+}
+
+HEADER {
+	background-color: #FFFFFF;
+	padding: 2em 1.5em 1em 2em;
+}
+
+HEADER nav {
+	float:right;
+	margin-right:1em;
+	display:inline-block;
+}
+
+HEADER nav a {
+	margin-left: 1.2em;
+}
+
+
+FOOTER a{
+	display: inline-block;
+	padding: 1.15em;
+}
+
+FOOTER a:hover{
+	color: #194567;
+	font-weight: 550;
+}
+
+FOOTER h5 {
+	text-align: center;
+	margin-left: 11em;
+	margin-right:11em;
+}
+
+FOOTER {
+	text-align: center;
+	height: 5.5em;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:white;
+}
+
+main {
+	background-color: #eeeeee;
+}
+
+main img {
+	width: 100%;
+	display: block;
+}
+
+section {
+	background-color:white;
+}
+
+section img {
+	width: 19.7%;
+}
+
+
+#percentcomplete {
+	width: 33%;
+	background:#eeeeee;
+	float:left;
+	margin-right:0.5em;
+	text-align:right;
+	padding-top:2%;
+}
+
+#percentcomplete p {
+	padding-right:0.5em;
+}
+
+#checklist {
+	width: 58%;
+	background:#eeeeee;
+	float:left;
+	padding:2% 2% 0% 6%;
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 1.15em;
+	line-height:1.5em;
+	font-weight:400;
+	color: #696969;
+	float:left;
+	width:50%;
+	height: 3em;
+	text-align:left;
+	line-height:2em;
+}
+
+.clearfix:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+
+.blocks {
+	min-height:10em;
+}
+
+.meter { 
+	height: 1.65em;  /* Can be anything */
+	position: relative;
+	width: 90%;
+	background: #FFFFFF;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius: 0.5em;
+	box-shadow: inset 0 -0.1em 0.1em rgba(220,220,220,0.7);
+	margin-bottom: 0.75em;
+	margin-left:1em;
+	margin-right: 0.75em;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+  background-color: rgb(122,193,67);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 0.1em 1em  rgba(255,255,255,0.3),
+    inset 0 -0.1em 1em rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
